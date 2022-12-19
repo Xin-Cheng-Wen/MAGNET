@@ -20,7 +20,7 @@ Our code is based on Python3 (>= 3.7). There are a few dependencies to run the c
 * pandas  (==1.4.1)
 * tqdm
 
-**Default settings in AMPLE**:
+**Default settings in MAGNET**:
 * Training configs: 
     * batch_size = 512 (FFMpeg+Qemu), 512 (Reveal), 256 (Fan et al.) 
     * lr = 5e-4, epoch = 100, patience = 30
@@ -32,7 +32,6 @@ We use the Reveal[2]'s Joern to generate the code structure graph [here](https:/
 
 ## Training
 The model implementation code is under the ``` Training_code\``` folder. 
-
 
 ## References
 
