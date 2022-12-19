@@ -26,22 +26,13 @@ Our code is based on Python3 (>= 3.7). There are a few dependencies to run the c
     * lr = 5e-4, epoch = 100, patience = 30
     * opt ='Adam', weight_decay=1.2e-6
 optim = Adam(model.parameters(), lr=5e-4, weight_decay=1.2e-6)
+
 ## Preprocessing
-We use the Reveal[2]'s Joern to generate the code structure graph[here](https://github.com/VulDetProject/ReVeal). It is worth noting that the structure of the generated diagrams differs significantly between versions of Joern due to the rapidity of the iterative versions. After Joern had generated the graph, we processed it into a meta-path graph.
+We use the Reveal[2]'s Joern to generate the code structure graph [here](https://github.com/VulDetProject/ReVeal). It is worth noting that the structure of the generated diagrams differs significantly between versions of Joern due to the rapidity of the iterative versions. After Joern had generated the graph, we processed it into a meta-path graph.
 
-
-## Running the model
+## Training
 The model implementation code is under the ``` Training_code\``` folder. 
 
-
-<!-- #### T-test
-
-<table>
-<tr>
-    <td> </td>
-</tr>
-
-</table> -->
 
 ## References
 
